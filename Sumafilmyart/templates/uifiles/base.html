@@ -1,0 +1,145 @@
+{% load static %}
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="description" content="Name of your web site">
+<meta name="author" content="Marketify">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title>Dizme | Home</title>
+
+<!-- STYLES -->
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/plugins.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'css/dark.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+<!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
+<!-- /STYLES -->
+
+</head>
+
+<body> 
+	<!-- PRELOADER -->
+	<div id="preloader">
+		<div class="loader_line"></div>
+	</div>
+	<!-- /PRELOADER -->
+	
+	<!-- WRAPPER ALL -->
+	<div class="dizme_tm_all_wrap" data-magic-cursor="show">
+	
+		<!-- MOBILE MENU -->
+		<div class="dizme_tm_mobile_menu">
+			<div class="mobile_menu_inner">
+				<div class="mobile_in">
+					<div class="logo">
+						<a href="#"><img src="img/logo/logo.png" alt="" /></a>
+					</div>
+					<div class="trigger">
+						<div class="hamburger hamburger--slider">
+							<div class="hamburger-box">
+								<div class="hamburger-inner"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="dropdown">
+				<div class="dropdown_inner">
+					<ul class="anchor_nav">
+						<li class="current"><a href="#home">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#service">Service</a></li>
+						<li><a href="#blog">Blog</a></li>
+						<li><a href="#contact">Contact</a></li>
+						<li class="download_cv"><a href="img/cv/1.jpg" download><span>Download CV</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- /MOBILE MENU -->
+	
+		<!-- HEADER -->
+		<div class="dizme_tm_header">
+			<div class="container">
+				<div class="inner">
+					<div class="logo">
+						<a href="#"><img src="{% static 'img/logo/logo.png' %}" alt="" /></a>
+					</div>
+					<div class="menu">
+						<ul class="anchor_nav">
+							<li class="current"><a href="#home">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#portfolio">Portfolio</a></li>
+							<li><a href="#service">Service</a></li>
+							<li><a href="#blog">Blog</a></li>
+							<li><a href="#contact">Contact</a></li>
+							<li class="download_cv"><a href="img/cv/1.jpg" download><span>Download CV</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /HEADER -->
+
+	
+	{% block content %}
+    
+    {% endblock %}
+<!-- COPYRIGHT -->
+<div class="dizme_tm_section">
+	<div class="dizme_tm_copyright">
+		<div class="container">
+			<div class="inner">
+				<div class="left wow fadeInLeft" data-wow-duration="1s">
+					<p>Developed with love by <a href="https://themeforest.net/user/marketify" target="_blank">Marketify</a> &copy; 2022</p>
+				</div>
+				<div class="right wow fadeInRight" data-wow-duration="1s">
+					<ul>
+						<li><a href="#">Terms &amp; Condition</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /COPYRIGHT -->
+
+<!-- CURSOR -->
+<div class="mouse-cursor cursor-outer"></div>
+<div class="mouse-cursor cursor-inner"></div>
+<!-- /CURSOR -->
+
+<!-- TOTOP -->
+<div class="progressbar">
+	<a href="#"><span class="text">To Top</span></a>
+	<span class="line"></span>
+</div>
+<!-- /TOTOP -->
+
+</div>
+<!-- / WRAPPER ALL -->
+		
+	
+	
+<!-- SCRIPTS -->
+<script src="{% static 'js/jquery.js' %}"></script>
+<!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->	
+<script src="{% static 'js/plugins.js' %}"></script>
+<script src="{% static 'js/init.js' %}"></script>
+<!-- /SCRIPTS -->
+
+</body>
+</html>

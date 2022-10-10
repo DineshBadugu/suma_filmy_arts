@@ -2831,10 +2831,13 @@ input[type=number] {
 .f-container-section{
 	color:#F46806;
 	margin-top:10px;
-	align-content: center;
-	justify-content:flex-end;
-	
 }
+.f-container-section3 ul{
+	align-items: center !important;
+	margin-left: 470px;
+	margin-bottom: -30px;
+}
+
 .f-container-section2{
 	display: flex;
 	flex-direction: column;

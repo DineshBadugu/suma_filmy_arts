@@ -555,7 +555,7 @@ function dizme_tm_owl_carousel(){
 
 	"use strict";
 	
-	var carousel			= jQuery('.dizme_tm_testimonials .owl-carousel');
+	var carousel = jQuery('.dizme_tm_testimonials .owl-carousel');
 	
 	var rtlMode	= false;
 
@@ -567,7 +567,8 @@ function dizme_tm_owl_carousel(){
 		loop: true,
 		items: 1,
 		lazyLoad: false,
-		margin: 0,
+		center: true,
+		margin: 4,
 		autoplay: true,
 		autoplayTimeout: 7000,
 		rtl: rtlMode,

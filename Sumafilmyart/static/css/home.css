@@ -24,19 +24,19 @@
 --------------------------------------------------------------*/
 .owl-carousel .item-video {
   height: 350px;
-  margin-top: 20px;
+  margin-top: 0px;
   width: 100%;
   margin-left: 15px;
   margin-right: 15px;
 }
 .item-video{
-  padding-top: 30px;
+  padding-top: 0px;
 }
 
 .video_container{
   width: 100%;
-  height: 70vh !important;
-  margin-top:25px;
+  height: 100%!important;
+  margin-top:0px;
   background-color:#f79148;
   border: 10px solid rgb(241, 238, 238);
   border-radius: 4px;
@@ -102,4 +102,13 @@
 }
 .imgSwiper .swiper-slide-active{
   filter: blur(0px);
+}
+.icon-items{
+  display: flex;
+  justify-content: center;
+}
+.media{
+  list-style-type:none;
+  margin: 3px;
+
 }

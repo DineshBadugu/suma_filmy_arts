@@ -2819,9 +2819,25 @@ input[type=number] {
 	.dizme_tm_contact{margin-bottom: 120px;}
 }
 
+.social ul{
+	display: flex;
+	margin-right: 40px;
+} 
+.social ul li{
+	list-style-type: none;
+	padding: 5px;
+} 
+
+.f-container-section{
+	color: black;
+	align-items: center;
+	margin-top:10px;
+	align-content: center;
+}
 
 
-.mainlinks{
+
+/* .mainlinks{
 	margin-top: -50px !important;
 }
 
@@ -2836,12 +2852,4 @@ input[type=number] {
 	margin-bottom: -62px !important;
 	padding-bottom: 0px;
 }
-.social ul{
-	display: flex;
-	margin-right: 40px;
-
-}
-.social ul li{
-	list-style-type: none;
-	padding: 5px;
-}
+*/

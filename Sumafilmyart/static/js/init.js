@@ -681,3 +681,31 @@ $('.portfolio_list').waitForImages().done(function() {
 		itemSelector: '.grid-item',
 	});
 });
+
+
+// -----------------------------------------------------
+// ------------    home page slider    -------------------
+// -----------------------------------------------------
+// const swiper = new Swiper('.swiper', {
+// 	// Optional parameters
+// 	speed:400,
+// 	loop: true,
+  
+// 	// If we need pagination
+// 	pagination: {
+// 	  el: '.swiper-pagination',
+// 	},
+  
+// 	// Navigation arrows
+// 	// navigation: {
+// 	//   nextEl: '.swiper-button-next',
+// 	//   prevEl: '.swiper-button-prev',
+// 	// },
+  
+// 	// And if we need scrollbar
+// 	scrollbar: {
+// 	  	el: '.swiper-scrollbar',
+// 		clickable: true,
+// 		type:bulltes,
+// 	},
+//   });

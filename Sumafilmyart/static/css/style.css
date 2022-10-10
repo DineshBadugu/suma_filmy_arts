@@ -2829,12 +2829,14 @@ input[type=number] {
 } 
 
 .f-container-section{
-	color: black;
-	align-items: center;
+	color:#F46806;
 	margin-top:10px;
-	align-content: center;
 }
-
+.f-container-section3 ul{
+	align-items: center !important;
+	margin-left: 470px;
+	margin-bottom: -30px;
+}
 
 
 /* .mainlinks{

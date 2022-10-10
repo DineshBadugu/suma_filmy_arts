@@ -2831,14 +2831,6 @@ input[type=number] {
 .f-container-section{
 	color:#F46806;
 	margin-top:10px;
-<<<<<<< Updated upstream
-}
-.f-container-section3 ul{
-	align-items: center !important;
-	margin-left: 470px;
-	margin-bottom: -30px;
-}
-=======
 	align-content: center;
 	justify-content:flex-end;
 	
@@ -2852,7 +2844,6 @@ input[type=number] {
 }
 
 
->>>>>>> Stashed changes
 
 
 /* .mainlinks{

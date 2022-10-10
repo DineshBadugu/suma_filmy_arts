@@ -6,3 +6,9 @@
     background-color: blueviolet;
     height: 100vh;
 }
+
+.awards-img{
+	fill: currentcolor;
+	width: 400px;
+	height: 300px;
+}

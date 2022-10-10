@@ -2818,3 +2818,30 @@ input[type=number] {
 	.dizme_tm_contact .contact_inner{margin-top: 67px;margin-bottom: 120px;}
 	.dizme_tm_contact{margin-bottom: 120px;}
 }
+
+
+
+.mainlinks{
+	margin-top: -50px !important;
+}
+
+.copyright{
+	margin-left: 25px;
+	color:black;
+}
+
+.copy-rights{
+	color: wheat;
+	background-color: #d7dadf;
+	margin-bottom: -62px !important;
+	padding-bottom: 0px;
+}
+.social ul{
+	display: flex;
+	margin-right: 40px;
+
+}
+.social ul li{
+	list-style-type: none;
+	padding: 5px;
+}

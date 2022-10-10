@@ -12,6 +12,11 @@
 	float: left;
 	position: relative;
     margin-top: 100px;
-    
- 
+}
+
+.inner-port-img img{
+    height: 400px;
+    margin-top: 20px;
+    align-items: center;
+    border-radius: 6px;
 }

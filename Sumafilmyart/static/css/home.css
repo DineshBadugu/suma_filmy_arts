@@ -111,3 +111,17 @@
   margin: 3px;
 
 }
+
+
+/* .dizme_tm_hero .avatar{
+	width: 50%;
+	padding-left: 100px;
+}
+.dizme_tm_hero .avatar img{
+	max-height: 650px;
+} */
+
+.home-avatar{
+  max-height: 950px !important;
+  width: 100%;
+}

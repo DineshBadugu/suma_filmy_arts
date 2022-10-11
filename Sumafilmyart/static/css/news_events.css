@@ -83,9 +83,9 @@
     padding-left: calc(50% + 30px);
 }
 .timeline-dot{
-	height: 25px;
-	width: 25px;
-	background-color: #F75023;
+	height: 16px;
+	width: 16px;
+	background-color:#F46806;
 	position: absolute;
 	left: calc(50% - 13px);
 	border-radius: 50%;
@@ -93,7 +93,7 @@
 }
 .timeline-date{
 	font-size: 18px;
-	color: #eaa023;
+	color:#F46806;
 	margin:6px 0 15px;
 }
 .timeline-content{

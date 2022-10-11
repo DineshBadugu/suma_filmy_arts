@@ -2865,3 +2865,21 @@ input[type=number] {
 	padding-bottom: 0px;
 }
 */
+.hover-footer:hover{
+	color:#F46806;
+}
+.bx-chevron-right:hover{
+	color:#F46806;
+}
+.hover{
+	font-weight: 600;
+	text-decoration: none;
+}
+.hover:hover{
+	color:#F46806;
+
+}
+.footer-li{
+	list-style-type: none;
+
+}

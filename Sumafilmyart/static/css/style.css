@@ -2832,7 +2832,7 @@ input[type=number] {
 .f-container-section{
 	color:#F46806;
 	margin-top:10px;
-	background-color:black;
+	background-color:grey;
 }
 .f-container-section3 ul{
 	align-items: center !important;
@@ -2974,37 +2974,37 @@ ul{
 }
 
 
-.icon-facebook-1:hover{
+.icon-facebook-2:hover{
 	background-color:#F46806;
 	border-radius: 25px;
 }
-.icon-facebook-1{
+.icon-facebook-2{
 	color:white;
 }
 
-.icon-twitter-1:hover{
+.icon-twitter-2:hover{
 	background-color:#F46806;
 	border-radius: 25px;
 
 }
-.icon-twitter-1{
+.icon-twitter-2{
 	color:#ffffff;
 
 }
-.icon-linkedin-1:hover{
+.icon-linkedin-2:hover{
 	background-color:#F46806;
 	border-radius: 25px;
 }
-.icon-linkedin-1{
+.icon-linkedin-2{
 	color: #ffffff;
 
 }
-.icon-behance:hover{
+.icon-behance-1:hover{
 	background-color:#F46806;
 	border-radius: 25px;
 
 }
-.icon-behance{
+.icon-behance-1{
 	color: #ffffff;
 	
 

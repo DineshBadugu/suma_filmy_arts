@@ -83,11 +83,11 @@
     padding-left: calc(50% + 30px);
 }
 .timeline-dot{
-	height: 16px;
-	width: 16px;
+	height: 25px;
+	width: 25px;
 	background-color:#F46806;
 	position: absolute;
-	left: calc(50% - 13px);
+	left: calc(50% - 12px);
 	border-radius: 50%;
 	top:10px;
 }
@@ -174,5 +174,23 @@ width: 150px;
 	
 	}
 }
+.main{
+ display:none;
+}
+
+.popup_service_image2{
+	height: 350px;
+	width: 650px;
+	align-items: center;
+	padding-left: 0px;
+	border-radius: 6px;
+	
+}
 
 
+/* 
+.dizme_tm_modalbox .service_popup_informations .image .main {
+	height: 250px;
+	width: 300px;
+	z-index: -250;
+}  */

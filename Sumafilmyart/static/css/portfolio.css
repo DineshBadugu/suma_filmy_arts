@@ -15,7 +15,7 @@
 }
 
 .inner-port-img img{
-    height: 400px;
+    height: 380px;
     margin-top: 20px;
     align-items: center;
     border-radius: 6px;
@@ -26,3 +26,23 @@
 .portfolio-slider2{
 	margin-top: -35px;
 }
+
+@media(max-width: 574px){
+	
+.inner-port-img img{
+    height: 150px;
+	width: 300px;
+    border-radius: 6px;
+}
+.suma_tm_portfolio{
+	margin-top: 20px;
+}
+.portfolio-slider2{
+	margin-top: -350px;
+}
+.portfolio-slider3{
+	margin-top: -350px;
+	margin-bottom: -350px;
+}
+	
+ }

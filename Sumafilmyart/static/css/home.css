@@ -240,3 +240,24 @@
 	background-color: #f75023;
 	padding: 0px 35px;
 }
+
+
+.home-img-slider{
+	margin-bottom: 120px;
+  }
+@media(max-width: 767px){
+.f3_container .img_swiper {
+  width:250px;
+  height: 100px;
+  margin-left: -300px !important;
+  /* transform: scale(1.2); */
+
+ }
+ .home-img-slider{
+	margin-bottom: 350px;
+  }
+  /* .swiper-slide-active {
+    filter: blur(5px);
+  } */
+
+} 

@@ -2830,9 +2830,9 @@ input[type=number] {
 } 
 
 .f-container-section{
-	color:#F46806;
+	color:#ffffff;
 	margin-top:10px;
-	background-color:#acebc3;
+	background-color:#F46806;
 }
 .f-container-section3 ul{
 	align-items: center !important;
@@ -2884,8 +2884,8 @@ input[type=number] {
 }
 .footer-li{
 	list-style-type: none;
-
 }
+
 .suma-footer{
 	background-color: #1e3250!important;
 }
